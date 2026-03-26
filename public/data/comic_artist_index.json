@@ -1,0 +1,1184 @@
+{
+  "artists": [
+    {
+      "id": "artist_001",
+      "name": "Ricardo Guzmán",
+      "location": "Costa Rica",
+      "bio": "Ilustrador, historietista y antropólogo costarricense.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "fanzine",
+        "humor"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@guzmancomix"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/ricardo_guzman.jpg",
+          "alt": "Ricardo Guzmán",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_002",
+      "name": "Irving Mora",
+      "location": "Costa Rica",
+      "bio": "Dibujante, caricaturista e ilustrador costarricense, participante activo en la escena de fanzines.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "fanzine"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@parkin.zone"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_003",
+      "name": "Ariel Bertarioni",
+      "location": "Costa Rica",
+      "bio": "Ilustradora y artista de cómics costarricense, conocida por su estilo distintivo en el medio nacional. Diseñadora gráfica con énfasis en pintura. Ha ilustrado El zepelín silencioso de Luis Chaves y una serie de poemas: Comp de “poemillas” para Feliz-feels escrito por Mercedes Chan para la editorial Feliz Feliz, también el artículo: Publicidad en Costa Rica: ¿Reflejo de su sociedad? por Cindy Regidor para Revista Vacío.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "fanzine",
+        "fantasía"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@_bertarioni"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/bertarioni.jpeg",
+          "alt": "Ariel Bertarioni",
+          "format": "jpeg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_004",
+      "name": "Conpoco Coco",
+      "location": "Costa Rica",
+      "bio": "Artista emergente dentro del circuito de fanzines nacionales con presencia en Instagram.",
+      "roles": [
+        "ilustrador"
+      ],
+      "genres": [
+        "fanzine"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@conpocococo"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_005",
+      "name": "Michael Jensen",
+      "location": "Costa Rica",
+      "bio": "Artista visual y creador de cómics, reconocido por su trabajo bajo el seudónimo Jaguarbee en la escena de fanzines nacional.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "fanzine",
+        "fantasía"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@jaguarbee"
+      },
+      "websites": {
+        "website": "https://www.tortugalibre.com/"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_006",
+      "name": "Pescuezo",
+      "location": "Costa Rica",
+      "bio": "Ilustrador y dibujante de cómics con presencia en la escena independiente costarricense.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "fanzine"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@_pescuezo_"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_007",
+      "name": "Pablo Aguilar",
+      "location": "Costa Rica",
+      "bio": "Dibujante y narrador visual activo en la comunidad de cómics de Costa Rica.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "fanzine"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@pbalo_aguilar"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_008",
+      "name": "Sisimiki Studio",
+      "location": "Costa Rica",
+      "bio": "Casa de Artes Gráficas concentrada en la producción y adaptación de cómics, guiones, storyboards y proyectos animados en San José. Creadores de series animadas y cómics web populares en la región.",
+      "roles": [
+        "animador",
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "horror",
+        "webcomic",
+        "animacion",
+        "alternativo",
+        "comic"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@sismiki.studio"
+      },
+      "websites": {
+        "website": "https://www.sisimiki.com"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/sisimiki_studio.jpg",
+          "alt": "Sisimiki Studio",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_009",
+      "name": "Monkey Incident Project",
+      "location": "Costa Rica",
+      "bio": "Proyecto de creación de cómics y contenido visual alternativo en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "alternativo",
+        "comic",
+        "accion"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@monkeyincident"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/monkey_incident_project.jpg",
+          "alt": "Monkey Incident Project",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_010",
+      "name": "Edo Brenes",
+      "location": "Costa Rica",
+      "bio": "Novelista gráfico desde 2019, fundador de Pulpo Press editorial independiente en San José. Sus historias abordan la vida cotidiana en Costa Rica, inspirado por su entorno y familia.",
+      "roles": [
+        "dibujante",
+        "escritor",
+        "ilustrador"
+      ],
+      "genres": [
+        "novela_grafica",
+        "indie"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@pulpopress"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/edo_brenes.jpg",
+          "alt": "Edo Brenes",
+          "format": "jpg"
+        }
+      },
+      "websites": {
+        "website": "https://pulpopress.com"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_011",
+      "name": "Esferas CR",
+      "location": "Costa Rica",
+      "bio": "Grupo o proyecto dedicado a la publicación y difusión de cómics y narrativas esféricas o alternativas en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "fantasía",
+        "ciencia_ficción"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@esferascr"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/esferas_cr.png",
+          "alt": "Esferas CR",
+          "format": "png"
+        }
+      },
+      "websites": {
+        "website": "https://esferascr.com/"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_012",
+      "name": "Dave Salazar",
+      "location": "Costa Rica",
+      "bio": "Artista y creador detrás de Wolfvenom Workshop, especializado en cómics de acción y fantasía en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "accion",
+        "fantasia"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@wolfvenom_workshop"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_013",
+      "name": "Josue Chinchilla",
+      "location": "Costa Rica",
+      "bio": "Dibujante e ilustrador costarricense activo en la escena del cómic nacional.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "comic",
+        "ilustracion"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@lachinchilladibujante"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/josue_chinchilla.jpg",
+          "alt": "Josue Chinchilla",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_014",
+      "name": "Kabek Gutiérrez",
+      "location": "Costa Rica",
+      "bio": "Creador del webcómic 'Momentos Involuntarios' desde 2017, un cómic semi-autobiográfico sobre la vida cotidiana. El humor, la crítica y la cotidianidad son los ingredientes principales de su obra.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "slice_of_life",
+        "drama"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@momentosinvoluntarios"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_015",
+      "name": "Karyna Calderón",
+      "location": "Costa Rica",
+      "bio": "Artista multidisciplinaria con formación artística y pedagógica de la Universidad de Costa Rica. Licenciada en Artes Plásticas con énfasis en Escultura, ilustradora, storyboarder, escultora y pintora muralista.",
+      "roles": [
+        "ilustrador",
+        "dibujante"
+      ],
+      "genres": [
+        "fantasía",
+        "manga"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@karyvalkyria"
+      },
+      "websites": {
+        "portfolio": "https://karynacalderon.com"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_016",
+      "name": "Ronald Díaz Cabrera",
+      "location": "Costa Rica",
+      "bio": "Conocido como 'Rodicab', nació en Liberia, Guanacaste en 1975. Artista autodidacta considerado el padre del cómic en Guanacaste. Miembro de la asociación La Pluma Cómic.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "cómic",
+        "aventura"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@rodicab.comics"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/rodicab.jpg",
+          "alt": "Rodicab",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_017",
+      "name": "Ronny Mata",
+      "location": "Costa Rica",
+      "bio": "Ilustrador y artista de cómics enfocado en el estilo manga.",
+      "roles": [
+        "ilustrador",
+        "dibujante"
+      ],
+      "genres": [
+        "fantasía",
+        "arte_digital"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@romata_art"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_018",
+      "name": "Sebastián Montenegro",
+      "location": "Costa Rica",
+      "bio": "Autor de la novela gráfica 'Ficción en San José' autoeditada en 2021. Apasionado de las imágenes con ficciones de corte humanista y experiencia en modelado 3D y storyboard.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "narrativa_grafica"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@seb_narrativa"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_019",
+      "name": "Carlos Enrique Alvarado",
+      "location": "Costa Rica",
+      "bio": "Pionero del cómic de aventuras costarricense, con amplia trayectoria en el medio del cómic y la ilustración publicitaria en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "comic",
+        "publicidad"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@fascinacmyk"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/carlos_alvarado.jpg",
+          "alt": "Carlos Enrique Alvarado",
+          "format": "jpg"
+        }
+      },
+      "awards": [
+        "Homenajeado en evento nacional"
+      ],
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_020",
+      "name": "Carlos Enrique Figueroa",
+      "location": "Costa Rica",
+      "bio": "Veterano de la historieta costarricense, invitado y homenajeado por su contribución al medio del cómic nacional.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "comic",
+        "clasico"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@instatricolin"
+      },
+      "awards": [
+        "Homenajeado en evento nacional"
+      ],
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_021",
+      "name": "Franco Céspedes",
+      "location": "Costa Rica",
+      "bio": "Artista con presencia nacional, trabajador en múltiples formatos visuales e ilustración en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "ilustración"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@francocespedesoficial"
+      },
+      "websites": {
+        "website": "https://www.francocespedes.com/"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/franco_cespedes.jpg",
+          "alt": "Franco Céspedes",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_022",
+      "name": "Alexis Torres",
+      "location": "Costa Rica",
+      "bio": "Dibujante e ilustrador activo en la comunidad de cómic nacional costarricense.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "cómic"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@alexis_torres_art"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_023",
+      "name": "Danny Arce",
+      "location": "Costa Rica",
+      "bio": "Creador del cómic 'Antisocialite' y otros proyectos de indie comics en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "indie",
+        "superheroes"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@danny_antisocialite"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_024",
+      "name": "Omar Valenzuela",
+      "location": "Costa Rica",
+      "bio": "Artista original de 'Los Amigos de Tambor', figura clásica del cómic costarricense con trayectoria en humor y costumbrismo.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "humor",
+        "costumbrismo"
+      ],
+      "experience_level": "nacional",
+      "awards": [
+        "Invitado especial"
+      ],
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_025",
+      "name": "Roy Montoya",
+      "location": "Costa Rica",
+      "bio": "Ilustrador y artista de cómics con enfoque en arte comercial y secuencial en Costa Rica.",
+      "roles": [
+        "ilustrador",
+        "dibujante"
+      ],
+      "genres": [
+        "fantasía"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@roympart"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_026",
+      "name": "Roberto Araya",
+      "location": "Costa Rica",
+      "bio": "Dibujante e ilustrador con presencia en redes sociales y proyectos de cómic en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "cómic"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@luisro_art"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_027",
+      "name": "Natalia Solis",
+      "location": "Costa Rica",
+      "bio": "Artista destacada y ganadora del concurso Alianza Francesa 2024. Su trabajo se enfoca en la narrativa gráfica de alto nivel.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "narrativa"
+      ],
+      "experience_level": "nacional",
+      "awards": [
+        "Ganadora Alianza Francesa 2024"
+      ],
+      "images": {
+        "featured": {
+          "url": "/images/nat_solis.png",
+          "alt": "Natalia Solis",
+          "format": "png"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_028",
+      "name": "Faroth Fuin",
+      "location": "Costa Rica",
+      "bio": "Creador asociado al proyecto MCD Comic en la escena de fantasía costarricense.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "fantasía"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@mcdcomic.faroth"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_029",
+      "name": "Max Zagushi",
+      "location": "Costa Rica",
+      "bio": "Ilustrador y artista de cómics con estilo caricaturesco y humorístico en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "caricatura"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@zagushi"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_030",
+      "name": "Ariel Zumbado",
+      "location": "Costa Rica",
+      "bio": "Mangaka costarricense.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "manga"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@ariart_mangaka"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/ariel_zumbado.jpg",
+          "alt": "Ariel Zumbado",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_031",
+      "name": "Karu Kardumen",
+      "location": "Costa Rica",
+      "bio": "Creador de webcomics y contenido de humor y aventuras en plataformas digitales costarricenses.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "webcomic",
+        "humor"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@karukardumen"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_032",
+      "name": "Von Hexa",
+      "location": "Costa Rica",
+      "bio": "Artista de comics y fanartist profesional. Tambien ha sido creadora de contenido para videojuegos y ha participado en campañas de manera oficial para Mass Effect, Apex Legends y Marvel Rivals.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "webcomic"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@vonhexa"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/von_hexa.jpg",
+          "alt": "Von Hexa",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_033",
+      "name": "Yellow Moondy",
+      "location": "Costa Rica",
+      "bio": "Creadora de webcomics y contenido artístico en redes sociales costarricenses.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "webcomic"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@yellowmoondycomics"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_034",
+      "name": "Zayfelin",
+      "location": "Costa Rica",
+      "bio": "Artista de webcomics e ilustración en la escena digital costarricense.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "webcomic"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@zayfelin"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_035",
+      "name": "Dennis A. Fernández",
+      "location": "Región Brunca, Costa Rica",
+      "bio": "Artista radicado en la Región Brunca, activo en la creación de cómics y webcomics en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "webcomic"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@dennis_f_brunca0416_cr"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_036",
+      "name": "Friendsyasw",
+      "location": "Costa Rica",
+      "bio": "Creador de contenido y webcomics en la escena nacional costarricense.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "webcomic"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@friendsyasw"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_037",
+      "name": "Julio Zúñiga",
+      "location": "Costa Rica",
+      "bio": "Creador de Julio Star Comics, dedicado a la producción de webcomics y contenido de superhéroes en Costa Rica.",
+      "roles": [
+        "dibujante",
+        "escritor"
+      ],
+      "genres": [
+        "webcomic",
+        "superheroes"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@juliostarcomics"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_038",
+      "name": "José Davis Barrantes",
+      "location": "Costa Rica",
+      "bio": "Artista de la escena de webcomics costarricense.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "webcomic"
+      ],
+      "experience_level": "nacional",
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_039",
+      "name": "Dan Mora",
+      "location": "Costa Rica",
+      "bio": "Nacido el 5 de junio de 1986 en San José, Costa Rica. Artista de cómics de renombre internacional conocido por su trabajo en DC Comics (Batman/Superman: World's Finest) y BOOM! Studios (Once & Future, Klaus).",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "superheroes",
+        "fantasia"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@dan_mora_c"
+      },
+      "publications": [
+        "DC Comics",
+        "BOOM! Studios"
+      ],
+      "awards": [
+        "Candidato a premios Eisner 2024"
+      ],
+      "images": {
+        "featured": {
+          "url": "/images/dan_mora.jpg",
+          "alt": "Dan Mora",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_040",
+      "name": "Sergio Acuña",
+      "location": "Internacional",
+      "bio": "Ilustrador y dibujante de cómics costarricense con carrera nacional e internacional. Estudió diseño en la Escuela de Bellas Artes de la UCR. Ha trabajado en cómics de licencias como WWE, Buffy: The Vampire Slayer y Firefly para BOOM! Studios.",
+      "roles": [
+        "animador",
+        "ilustrador"
+      ],
+      "genres": [
+        "animacion",
+        "fantasia"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@sergacuna"
+      },
+      "publications": [
+        "BOOM! Studios",
+        "DC Comics"
+      ],
+      "images": {
+        "featured": {
+          "url": "/images/sergio_acuna.jpg",
+          "alt": "Sergio Acuña",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_041",
+      "name": "Kath Lobo",
+      "location": "Internacional",
+      "bio": "Artista de cómics e ilustradora de Costa Rica. Ha trabajado para DC Comics, BOOM! Studios y Mad Cave Studios.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "fantasia",
+        "ciencia_ficcion"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@kath_lobo"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/kath_lobo.jpg",
+          "alt": "Kath Lobo",
+          "format": "jpg"
+        }
+      },
+      "publications": [
+        "DC Comics",
+        "BOOM! Studios",
+        "Mad Cave Studios"
+      ],
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_042",
+      "name": "Jenny Odio",
+      "location": "Internacional",
+      "bio": "Ilustradora graduada de la Escuela de Arte y Comunicación Visual de la Universidad Nacional de Costa Rica. Diseñadora, ilustradora y artista de cómics trabajando para el mercado internacional.",
+      "roles": [
+        "ilustrador",
+        "dibujante"
+      ],
+      "genres": [
+        "ilustracion"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@jennyodio.art"
+      },
+      "websites": {
+        "portfolio": "https://jennyodio.carrd.co"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_043",
+      "name": "Leo Trinidad",
+      "location": "Internacional",
+      "bio": "Artista de cómics bestseller del NY Times, ilustrador y animador de Costa Rica. Por más de 15 años ha creado contenido para niños, incluyendo series animadas para DreamWorks y Cartoon Network.",
+      "roles": [
+        "escritor",
+        "dibujante"
+      ],
+      "genres": [
+        "superheroes",
+        "ciencia_ficcion"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@le0trinidad"
+      },
+      "publications": [
+        "BOOM! Studios",
+        "Marvel",
+        "Scholastic"
+      ],
+      "websites": {
+        "website": "https://leotrinidad.com"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/leo_trinidad.jpg",
+          "alt": "Leo Trinidad",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_044",
+      "name": "Daniel Sánchez",
+      "location": "Internacional",
+      "bio": "Artista de cómics con trabajo en la industria internacional desde Costa Rica.",
+      "roles": [
+        "ilustrador"
+      ],
+      "genres": [
+        "comic"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@dannyfsch"
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_045",
+      "name": "John Timms",
+      "location": "Internacional",
+      "bio": "Nacido el 2 de diciembre de 1979 en San José, Costa Rica. Estudió Diseño Gráfico en la Universidad de Costa Rica. Conocido por su trabajo extensivo en DC Comics (Harley Quinn, Suicide Squad, Young Justice).",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "superhéroes"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@theartofjohntimms"
+      },
+      "publications": [
+        "DC Comics",
+        "Marvel"
+      ],
+      "websites": {
+        "website": "https://www.johntimmsart.com"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/john_timms.jpg",
+          "alt": "John Timms Shazam Ink",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_046",
+      "name": "Ed Jiménez",
+      "location": "Internacional",
+      "bio": "Ilustrador digital y Concept Artist costarricense. Ha trabajado con compañías como Funko, DC Comics, Paramount Pictures y Hasbro.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "fantasía"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@edjimenezart"
+      },
+      "websites": {
+        "artstation": "https://www.artstation.com/edjimenezart"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/ed_jimenez.jpg",
+          "alt": "Ed Jiménez",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_047",
+      "name": "Mecho",
+      "location": "Costa Rica",
+      "bio": "Humorista gráfico y dibujante, figura icónica del humor costarricense en medios impresos y digitales. Galardonado con premios internacionales en el campo de la caricatura.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "humor_grafico",
+        "satira"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@mecho_art"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/mecho.jpg",
+          "alt": "Mecho",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_048",
+      "name": "Daniela Espinoza Castro",
+      "location": "Costa Rica",
+      "bio": "Ilustradora y dibujante enfocada en el humor gráfico y la sátira social en Costa Rica.",
+      "roles": [
+        "ilustrador",
+        "dibujante"
+      ],
+      "genres": [
+        "humor_gráfico"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@daniesca.art"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/daniesca.jpg",
+          "alt": "Daniesca",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_049",
+      "name": "Francisco Munguía",
+      "location": "Costa Rica",
+      "bio": "Legendario humorista gráfico costarricense (1976-2020). Muralista y caricaturista con más de 15 años de carrera y más de 100 murales en todo el país. Su stand es atendido por su esposa Débora Portillo.",
+      "roles": [
+        "dibujante"
+      ],
+      "genres": [
+        "humor_gráfico"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@munguiacostarica"
+      },
+      "awards": [
+        "Homenaje póstumo nacional"
+      ],
+      "images": {
+        "featured": {
+          "url": "/images/munguia.jpg",
+          "alt": "Munguía",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_050",
+      "name": "Roberto Guillén",
+      "location": "Costa Rica",
+      "bio": "Productor ejecutivo de varios estudios de animación locales y director de arte de Studio Flex, ha trabajado en áreas de preproducción animada para productoras internacionales como Herald Entertainment, Motion Pixel Corporation, CPoint Entertainment, Anima Studios, entre otras.\n\nHa ganado más de 20 premios locales e internacionales y ha sido fundador de emblematicos emprendimientos como las revistas de cómics Neozaga y el libro antologico, Colectivo de Cómic Costarricense.\n\nHa sido miembro del Consejo Nacional de Cinematografía y consultor de las Naciones Unidas.\n\nActualmente forma parte del equipo de profesores de Santa Gráfica.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "comic",
+        "animacion"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@tinbetto"
+      },
+      "websites": {
+        "website": "https://santagrafica.com/profesores/roberto-guillen-2/"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/tinbetto.jpg",
+          "alt": "Roberto Guillén",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_051",
+      "name": "Mau Mora",
+      "location": "Costa Rica",
+      "bio": "Artista de cómics e ilustrador profesional. Ha trabajado en el mercado indie en inglés para Mad Cave Studios, Comixology, White Ash Comics, Lifeline Comics y Space Between Entertainment, entre otros. Además ha trabajado como artista para varios videojuegos nacionales.",
+      "roles": [
+        "dibujante",
+        "ilustrador"
+      ],
+      "genres": [
+        "comic",
+        "indie"
+      ],
+      "experience_level": "internacional",
+      "social_media": {
+        "instagram": "@maumoraart"
+      },
+      "websites": {
+        "website": "https://maumoraart.carrd.co/"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/mauricio-mora-metroid.jpg",
+          "alt": "Mau Mora fanart Metroid",
+          "format": "jpg"
+        }
+      },
+      "publications": [
+        "Mad Cave Studios",
+        "Comixology",
+        "White Ash Comics",
+        "Lifeline Comics",
+        "Space Between Entertainment"
+      ],
+      "last_updated": "2026-03-26"
+    }
+  ],
+  "works": []
+}

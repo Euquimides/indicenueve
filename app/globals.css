@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Color tokens ──────────────────────────────────────────── */
+:root {
+  /* Accent (unchanged in dark) */
+  --color-comic-yellow:              255 222 0;
+  --color-comic-red:                 230 57 70;
+  /* Primary ink (unchanged in dark — used on yellow bg) */
+  --color-primary:                   23 24 24;
+  --color-primary-container:         44 44 44;
+
+  /* Light theme */
+  --color-secondary:                 63 98 123;
+  --color-surface:                   255 255 255;
+  --color-surface-container-lowest:  255 255 255;
+  --color-surface-container-low:     243 243 243;
+  --color-surface-container:         238 238 238;
+  --color-surface-container-high:    232 232 232;
+  --color-surface-container-highest: 226 226 226;
+  --color-on-surface:                26 28 28;
+  --color-on-surface-variant:        68 71 72;
+  --color-outline:                   116 120 120;
+  --color-outline-variant:           196 199 199;
+  --color-error:                     186 26 26;
+
+  /* Shadows */
+  --shadow-modal:    0 20px 60px rgba(23, 24, 24, 0.22);
+  --shadow-dropdown: 0 4px 20px rgba(23, 24, 24, 0.08);
+}
+
+.dark {
+  --color-secondary:                 112 161 186;
+  --color-surface:                   17 19 18;
+  --color-surface-container-lowest:  22 24 24;
+  --color-surface-container-low:     28 30 30;
+  --color-surface-container:         36 39 39;
+  --color-surface-container-high:    44 47 47;
+  --color-surface-container-highest: 52 55 55;
+  --color-on-surface:                225 227 227;
+  --color-on-surface-variant:        193 199 199;
+  --color-outline:                   139 144 144;
+  --color-outline-variant:           63 69 69;
+  --color-error:                     255 180 171;
+
+  --shadow-modal:    0 0 0 1px rgba(255, 255, 255, 0.06), 0 24px 60px rgba(0, 0, 0, 0.6);
+  --shadow-dropdown: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* ── Base ──────────────────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface text-on-surface font-body;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #e63946;
+    outline-offset: 2px;
+  }
+}
+
+/* ── Utilities ─────────────────────────────────────────────── */
+@layer utilities {
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

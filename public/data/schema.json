@@ -1,0 +1,281 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Comics Costa Rica Index Schema",
+  "description": "Schema defining the structure of the comics and artists index with image metadata",
+  "type": "object",
+  "required": ["artists", "works"],
+  "properties": {
+    "artists": {
+      "type": "array",
+      "description": "Array of comic artists",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "location", "bio", "roles", "genres", "experience_level"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the artist"
+          },
+          "name": {
+            "type": "string",
+            "description": "Full name of the artist"
+          },
+          "location": {
+            "type": "string",
+            "description": "Artist's current location or residence"
+          },
+          "bio": {
+            "type": "string",
+            "description": "Biography or short description of the artist"
+          },
+          "roles": {
+            "type": "array",
+            "description": "Professional roles of the artist",
+            "items": {
+              "type": "string",
+              "enum": ["dibujante", "ilustrador", "escritor", "animador"]
+            }
+          },
+          "genres": {
+            "type": "array",
+            "description": "Comic genres the artist works in",
+            "items": {
+              "type": "string"
+            }
+          },
+          "experience_level": {
+            "type": "string",
+            "description": "Professional experience level",
+            "enum": ["nacional", "internacional"]
+          },
+          "image_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Legacy field: URL to artist's profile image"
+          },
+          "image_alt": {
+            "type": "string",
+            "description": "Legacy field: Alt text for image"
+          },
+          "image_width": {
+            "type": "integer",
+            "description": "Legacy field: Image width in pixels"
+          },
+          "image_height": {
+            "type": "integer",
+            "description": "Legacy field: Image height in pixels"
+          },
+          "images": {
+            "type": "object",
+            "description": "Structured image metadata",
+            "properties": {
+              "featured": {
+                "$ref": "#/definitions/image"
+              }
+            }
+          },
+          "social_media": {
+            "type": "object",
+            "description": "Artist's social media handles",
+            "properties": {
+              "instagram": {
+                "type": "string"
+              },
+              "twitter": {
+                "type": "string"
+              },
+              "facebook": {
+                "type": "string"
+              }
+            }
+          },
+          "websites": {
+            "type": "object",
+            "description": "Artist's website URLs",
+            "properties": {
+              "portfolio": {
+                "type": "string",
+                "format": "uri"
+              },
+              "behance": {
+                "type": "string",
+                "format": "uri"
+              },
+              "website": {
+                "type": "string",
+                "format": "uri"
+              },
+              "artstation": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "publications": {
+            "type": "array",
+            "description": "List of publishers or publications the artist has worked with",
+            "items": {
+              "type": "string"
+            }
+          },
+          "awards": {
+            "type": "array",
+            "description": "Awards and recognitions received",
+            "items": {
+              "type": "string"
+            }
+          },
+          "contact_email": {
+            "type": "string",
+            "format": "email",
+            "description": "Contact email address (optional)"
+          },
+          "founded_year": {
+            "type": "integer",
+            "description": "Birth year or founding year (optional)"
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date",
+            "description": "Last update date in YYYY-MM-DD format"
+          }
+        }
+      }
+    },
+    "works": {
+      "type": "array",
+      "description": "Array of comic works",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "artists", "year", "synopsis", "genres", "format", "publication_status"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the work"
+          },
+          "title": {
+            "type": "string",
+            "description": "Title of the comic work"
+          },
+          "artists": {
+            "type": "array",
+            "description": "Array of artist IDs who worked on this piece",
+            "items": {
+              "type": "string"
+            }
+          },
+          "year": {
+            "type": "integer",
+            "description": "Publication or creation year"
+          },
+          "synopsis": {
+            "type": "string",
+            "description": "Summary or plot description of the work"
+          },
+          "genres": {
+            "type": "array",
+            "description": "Genres of the work",
+            "items": {
+              "type": "string"
+            }
+          },
+          "format": {
+            "type": "string",
+            "description": "Format of the work",
+            "enum": ["comic_book", "novela_gráfica", "manga", "webcomic", "graphic_novel"]
+          },
+          "publication_status": {
+            "type": "string",
+            "description": "Current publication status",
+            "enum": ["completado", "en_desarrollo", "planificado", "cancelado"]
+          },
+          "image_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Legacy field: URL to work cover image"
+          },
+          "image_alt": {
+            "type": "string",
+            "description": "Legacy field: Alt text for image"
+          },
+          "images": {
+            "type": "object",
+            "description": "Structured image metadata",
+            "properties": {
+              "featured": {
+                "$ref": "#/definitions/image"
+              }
+            }
+          },
+          "platforms": {
+            "type": "array",
+            "description": "Platforms or publishers where the work is available",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "Platform/publisher name"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "URL to the platform or publication page"
+                }
+              }
+            }
+          },
+          "pages": {
+            "type": "integer",
+            "description": "Total number of pages (optional)"
+          },
+          "language": {
+            "type": "string",
+            "description": "Primary language of the work",
+            "enum": ["español", "inglés", "portugués", "multilingüe"]
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date",
+            "description": "Last update date in YYYY-MM-DD format"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "image": {
+      "type": "object",
+      "description": "Image metadata object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Image URL (local or external)"
+        },
+        "alt": {
+          "type": "string",
+          "description": "Alt text for accessibility"
+        },
+        "width": {
+          "type": "integer",
+          "description": "Image width in pixels"
+        },
+        "height": {
+          "type": "integer",
+          "description": "Image height in pixels"
+        },
+        "format": {
+          "type": "string",
+          "description": "Image file format",
+          "enum": ["jpg", "jpeg", "png", "webp", "gif", "svg"]
+        },
+        "size_kb": {
+          "type": "number",
+          "description": "File size in kilobytes"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.astiberri.com)",
+      "WebFetch(domain:locorabia.myportfolio.com)"
+    ]
+  }
+}
