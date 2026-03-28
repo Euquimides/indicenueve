@@ -114,14 +114,14 @@ export default function Navbar() {
           <Link href="/" className={`py-3 ${isActive('/') ? 'text-on-surface font-semibold' : 'text-outline'}`} aria-current={isActive('/') ? 'page' : undefined}>
             El Índice
           </Link>
-          <Link href="/estadisticas" className={`py-3 ${isActive('/estadisticas') ? 'text-on-surface font-semibold' : 'text-outline'}`} aria-current={isActive('/estadisticas') ? 'page' : undefined}>
-            Estadísticas
-          </Link>
           <Link href="/acerca-de" className={`py-3 ${isActive('/acerca-de') ? 'text-on-surface font-semibold' : 'text-outline'}`} aria-current={isActive('/acerca-de') ? 'page' : undefined}>
             Acerca De
           </Link>
           <Link href="/faq" className={`py-3 ${isActive('/faq') ? 'text-on-surface font-semibold' : 'text-outline'}`} aria-current={isActive('/faq') ? 'page' : undefined}>
             FAQ
+          </Link>
+          <Link href="/estadisticas" className={`py-3 ${isActive('/estadisticas') ? 'text-on-surface font-semibold' : 'text-outline'}`} aria-current={isActive('/estadisticas') ? 'page' : undefined}>
+            Estadísticas
           </Link>
         </nav>
       )}

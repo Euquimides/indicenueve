@@ -466,7 +466,7 @@
       "id": "artist_021",
       "name": "Franco Céspedes",
       "location": "Costa Rica",
-      "bio": "Artista con presencia nacional, trabajador en múltiples formatos visuales e ilustración en Costa Rica.",
+      "bio": "Ilustrador, diseñador de personajes y animador digital, con una trayectoria profesional de más de 20 años. Ha participado en importantes proyectos publicitarios y comerciales tanto en Costa Rica como en el extranjero, incluyendo películas de animación, series de animación y cómics para importantes empresas internacionales.",
       "roles": [
         "dibujante",
         "ilustrador"
@@ -474,7 +474,7 @@
       "genres": [
         "ilustración"
       ],
-      "experience_level": "nacional",
+      "experience_level": "internacional",
       "social_media": {
         "instagram": "@francocespedesoficial"
       },
@@ -686,7 +686,7 @@
     },
     {
       "id": "artist_032",
-      "name": "Von Hexa",
+      "name": "V0NHEXA",
       "location": "Costa Rica",
       "bio": "Artista de comics y fanartist profesional. Tambien ha sido creadora de contenido para videojuegos y ha participado en campañas de manera oficial para Mass Effect, Apex Legends y Marvel Rivals.",
       "roles": [
@@ -700,11 +700,14 @@
       "social_media": {
         "instagram": "@vonhexa"
       },
+      "websites": {
+        "website": "https://vonhexa.carrd.co/"
+      },
       "images": {
         "featured": {
-          "url": "/images/von_hexa.jpg",
-          "alt": "Von Hexa",
-          "format": "jpg"
+          "url": "/images/v0nhexa.webp",
+          "alt": "V0NHEXA",
+          "format": "webp"
         }
       },
       "last_updated": "2026-03-26"
@@ -1165,9 +1168,9 @@
       },
       "images": {
         "featured": {
-          "url": "/images/mauricio-mora-metroid.jpg",
-          "alt": "Mau Mora fanart Metroid",
-          "format": "jpg"
+          "url": "/images/mauricio-mora.webp",
+          "alt": "Mau Mora",
+          "format": "webp"
         }
       },
       "publications": [
@@ -1177,6 +1180,32 @@
         "Lifeline Comics",
         "Space Between Entertainment"
       ],
+      "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_052",
+      "name": "José Ulloa",
+      "location": "Costa Rica",
+      "bio": "Creador audiovisual, guionista y productor. Fundador de Cómics de Costa Rica, espacio dedicado a difundir y fortalecer la identidad del cómic nacional. Gestor del reconocimiento del 1ero de Septiembre como efeméride oficial que celebra El Día Nacional de la Historieta. Editor de proyectos pioneros como K-Oz (1998) y PLAN9 (2004). Actualmente desarrolla sus propios cómics bajo el sello Realidad Incorporada Producciones, con títulos como Cadejos, El Interrogatorio y La Espera. Su trabajo conecta autores, espacios culturales y nuevas audiencias, consolidándolo como referente en la creación y promoción del cómic costarricense.",
+      "roles": [
+        "escritor",
+        "dibujante"
+      ],
+      "genres": [
+        "comic",
+        "indie"
+      ],
+      "experience_level": "nacional",
+      "social_media": {
+        "instagram": "@comics_de_costa_rica/"
+      },
+      "images": {
+        "featured": {
+          "url": "/images/jose_ulloa.jpg",
+          "alt": "José Ulloa",
+          "format": "jpg"
+        }
+      },
       "last_updated": "2026-03-26"
     }
   ],
