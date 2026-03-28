@@ -62,12 +62,12 @@ El esquema completo está en `public/data/schema.json`.
 
 ## Contribuir
 
-¿Conocés un artista costarricense de cómics que deba estar en el índice?
+¿Conoces un artista costarricense de cómics que deba estar en el índice?
 
-1. Abrí un [issue en GitHub](https://github.com/Euquimides/indicenueve/issues) con la información del artista
-2. O enviá directamente un pull request editando `public/data/comic_artist_index.json`
+1. Abre un [issue en GitHub](https://github.com/Euquimides/indicenueve/issues) con la información del artista
+2. O envía directamente un pull request editando `public/data/comic_artist_index.json`
 
-Para agregar una imagen de perfil, incluí el archivo en `public/images/` y referencialo en el campo `images.featured.url` como `/images/nombre_archivo.jpg`. Los artistas sin imagen no se muestran en la grilla principal hasta que se agregue una.
+Para agregar una imagen de perfil, incluye el archivo en `public/images/` y referencialo en el campo `images.featured.url` como `/images/nombre_archivo.jpg`. Los artistas sin imagen no se muestran en la grilla principal hasta que se agregue una.
 
 ---
 
@@ -114,6 +114,6 @@ El build corre primero `scripts/build-search-index.js` (genera el índice Lunr e
 
 Este proyecto está disponible bajo la licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-Podés compartir y adaptar el contenido libremente, incluso con fines comerciales, siempre que des crédito adecuado al proyecto.
+Puedes compartir y adaptar el contenido libremente, incluso con fines comerciales, siempre que des crédito adecuado al proyecto.
 
 Más información: [creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0/)

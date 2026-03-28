@@ -28,7 +28,7 @@ const sections = [
   },
   {
     title: 'Licencia del contenido',
-    body: 'El contenido del proyecto (código fuente y datos) está disponible bajo la licencia Creative Commons Attribution 4.0 International (CC BY 4.0). Podés compartir y adaptar el material libremente, incluso con fines comerciales, siempre que des crédito adecuado al proyecto Índice Nueve.',
+    body: 'El contenido del proyecto (código fuente y datos) está disponible bajo la licencia Creative Commons Attribution 4.0 International (CC BY 4.0). Puedes compartir y adaptar el material libremente, incluso con fines comerciales, siempre que des crédito adecuado al proyecto Índice Nueve.',
   },
   {
     title: 'Exención de responsabilidad',
