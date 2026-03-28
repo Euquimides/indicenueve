@@ -12,15 +12,15 @@ const sections = [
   },
   {
     title: 'Exactitud de la información',
-    body: 'La información sobre los artistas es aportada por la comunidad y puede estar incompleta, desactualizada o contener inexactitudes. El proyecto no garantiza la exactitud, integridad ni vigencia de los datos. Si encontrás información incorrecta sobre tu perfil o el de otro artista, podés reportarla abriendo un issue en el repositorio de GitHub.',
+    body: 'La información sobre los artistas es aportada por la comunidad y puede estar incompleta, desactualizada o contener inexactitudes. El proyecto no garantiza la exactitud, integridad ni vigencia de los datos. Si encuentras información incorrecta sobre tu perfil o el de otro artista, puedes reportarla abriendo un issue en el repositorio de GitHub.',
   },
   {
     title: 'Imágenes y derechos de autor',
-    body: 'Las imágenes utilizadas en los perfiles de artistas son propiedad de sus respectivos autores o titulares de derechos. Su uso en este sitio es exclusivamente con fines de identificación y referencia cultural, sin ánimo de lucro. Si sos titular de derechos sobre alguna imagen y querés que sea retirada, contactanos a través del repositorio de GitHub.',
+    body: 'Las imágenes utilizadas en los perfiles de artistas son propiedad de sus respectivos autores o titulares de derechos. Su uso en este sitio es exclusivamente con fines de identificación y referencia cultural, sin ánimo de lucro. Si eres titular de derechos sobre alguna imagen y quieres que sea retirada, contactanos a través del repositorio de GitHub.',
   },
   {
     title: 'Derecho al olvido',
-    body: 'Si sos un artista listado en el índice y preferís no aparecer, tenés derecho a solicitar la eliminación de tu información. Para ello, abrí un issue en el repositorio de GitHub indicando tu nombre y la solicitud de eliminación. Procesaremos la solicitud a la brevedad posible.',
+    body: 'Si eres un artista listado en el índice y prefieres no aparecer, tienes derecho a solicitar la eliminación de tu información. Para ello, abre un issue en el repositorio de GitHub indicando tu nombre y la solicitud de eliminación. Procesaremos la solicitud a la brevedad posible.',
   },
   {
     title: 'Privacidad',

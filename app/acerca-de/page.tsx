@@ -63,14 +63,14 @@ export default function AcercaDePage() {
               llenando un vacío documental crítico en la historia del cómic costarricense.
             </p>
             <p className="text-sm text-on-surface-variant leading-relaxed font-body">
-              Es un proyecto de código abierto y comunitario. ¿Conocés un artista que deba estar aquí?{' '}
+              Es un proyecto de código abierto y comunitario. ¿Conoces un artista que deba estar aquí?{' '}
               <a
                 href="https://github.com/Euquimides/indicenueve"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-comic-red hover:text-on-surface transition-colors underline underline-offset-2"
               >
-                Contribuí en GitHub →
+                Contribuye en GitHub →
               </a>
             </p>
           </section>
@@ -81,15 +81,15 @@ export default function AcercaDePage() {
               ¿Cómo aparecer en el índice?
             </h2>
             <p className="text-sm text-on-surface-variant leading-relaxed font-body mb-6">
-              Si sos artista costarricense de cómics o conocés a alguien que debería estar en el
-              directorio, podés contribuir de la siguiente manera:
+              Si eres artista costarricense de cómics o conocés a alguien que debería estar en el
+              directorio, puedes contribuir de la siguiente manera:
             </p>
             <ol className="space-y-4">
               {[
-                'Abrí un issue en el repositorio de GitHub.',
-                'Completá la información del artista según el esquema de datos.',
+                'Abre un issue en el repositorio de GitHub.',
+                'Completa la información del artista según el esquema de datos.',
                 <>
-                  Enviá un pull request con la actualización en{' '}
+                  Envía un pull request con la actualización en{' '}
                   <code className="text-[0.8em] bg-surface-container px-1.5 py-0.5 rounded font-mono">
                     public/data/comic_artist_index.json
                   </code>

@@ -10,7 +10,7 @@ const faqs = [
     q: '¿Dónde comprar cómics costarricenses?',
     a: (
       <>
-        Dependiendo del artista, podés encontrar sus obras en varios lugares:
+        Dependiendo del artista, puedes encontrar sus obras en varios lugares:
         <ul className="mt-3 space-y-2">
           {[
             'Amazon y librerías internacionales para artistas con publicaciones en editoriales globales (DC, BOOM! Studios, etc.).',
@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     q: '¿Por qué no aparece un artista que conozco?',
-    a: 'El índice es mantenido por la comunidad y puede no estar completo. Si conocés a alguien que debería estar, el proceso es simple: abrí un issue en el repositorio de GitHub o enviá un pull request con la información del artista. Puede ser que a la hora de la búsqueda aparezcan artistas listados, dado a que están presentes en el dataset, no obstante se agregan una vez se incluya una imagen de referencia de su trabajo.',
+    a: 'El índice es abierto y puede no estar completo. Si conoces a alguien que debería estar, el proceso es simple: abre un issue en el repositorio de GitHub o envía un pull request con la información del artista. Puede ser que a la hora de la búsqueda aparezcan artistas listados, dado a que están presentes en el dataset, no obstante se agregan una vez se incluya una imagen de referencia de su trabajo.',
   },
   {
     q: '¿Cómo funciona la búsqueda?',
@@ -59,31 +59,31 @@ const faqs = [
   },
   {
     q: '¿Qué criterios se usan para incluir artistas?',
-    a: 'El índice se enfoca en artistas costarricenses de cómics, incluyendo dibujantes, guionistas, coloristas, entintadores e ilustradores relacionados. Se prioriza la inclusión de artistas con publicaciones sea a nivel nacional o internacional, pero el proyecto es abierto a contribuciones que cumplan con el enfoque temático.',
+    a: 'El índice se enfoca en artistas costarricenses de cómics, incluyendo dibujantes, guionistas, coloristas, entintadores e ilustradores relacionados. Se prioriza la inclusión de artistas con publicaciones sea a nivel nacional o internacional, pero el proyecto es abierto a contribuciones siempre bajo este enfoque temático.',
   },
   {
     q: '¿Puedo usar los datos del índice en mi proyecto?',
-    a: 'El proyecto es de código abierto. Revisá el repositorio en GitHub para consultar la licencia vigente antes de reutilizar los datos.',
+    a: 'El proyecto es de código abierto. Revisa el repositorio en GitHub para consultar la licencia vigente antes de reutilizar los datos.',
   },
   {
     q: 'No quiero aparecer en el índice, ¿cómo puedo solicitar la eliminación de mis datos?',
-    a: 'Creemos en el derecho a la autodeterminación informativa. Si sos un artista listado y preferís no aparecer, podés solicitar la eliminación de tus datos abriendo un issue en el repositorio de GitHub.',
+    a: 'Creemos en el derecho a la autodeterminación informativa. Si eres un artista listado y prefieres no aparecer, puedes solicitar la eliminación de tus datos abriendo un issue en el repositorio de GitHub.',
   },
   {
     q: '¿Cómo puedo contribuir o reportar un error?',
-    a: 'Abrí un issue en el repositorio de GitHub del proyecto. Para correcciones de datos, podés enviar un pull request con los cambios directamente en public/data/comic_artist_index.json.',
+    a: 'Abre un issue en el repositorio de GitHub del proyecto. Para correcciones de datos, puedes enviar un pull request con los cambios directamente en public/data/comic_artist_index.json.',
   },
   {
     q: '¿Puedo sugerir mejoras o nuevas funcionalidades para el sitio?',
-    a: '¡Claro! El proyecto es comunitario y siempre estamos abiertos a sugerencias. Abrí un issue en GitHub con tu idea o mejora propuesta.',
+    a: '¡Claro! El proyecto es comunitario y siempre está abierto a sugerencias. Abrí un issue en GitHub con tu idea o mejora propuesta.',
   },
   {
     q: '¿Cómo puedo contactar a los artistas listados?',
-    a: 'El índice no incluye información de contacto directo para respetar la privacidad de los artistas. Sin embargo, muchos artistas tienen perfiles públicos en redes sociales como Instagram, Twitter o LinkedIn donde comparten su trabajo y pueden ser contactados de manera profesional.',
+    a: 'El índice no incluye información de contacto directo para respetar la privacidad de los artistas. Sin embargo, muchos artistas tienen perfiles públicos en redes sociales como Instagram, X o LinkedIn donde comparten su trabajo.',
   },
   {
     q: "Soy artista, quiero cambiar la imagen de referencia que aparece en el índice, ¿cómo lo hago?",
-    a: 'La imagen de referencia se actualiza a través de contribuciones en el repositorio de GitHub. Si sos un artista listado y querés cambiar tu imagen, podés abrir un issue o enviar un pull request con la nueva imagen siguiendo la estructura del dataset, ojalá con una imagen de buena calidad que represente tu trabajo.',
+    a: 'La imagen de referencia se actualiza a través de contribuciones en el repositorio de GitHub. Si eres un artista listado y quieres cambiar tu imagen, puedes abrir un issue o enviar un pull request con la nueva imagen siguiendo la estructura del dataset, ojalá con una imagen de buena calidad que represente tu trabajo.',
   },
   {
     q: 'Cuando sea grande quiero ser como ellos, ¿qué consejos me dan?',
@@ -153,7 +153,7 @@ export default function FaqPage() {
 
         {/* Footer CTA */}
         <p className="mt-8 md:mt-16 text-sm text-on-surface-variant leading-relaxed font-body border-t border-outline-variant/20 pt-8 md:pt-10">
-          ¿Tenés una pregunta que no está aquí?{' '}
+          ¿Tienes una pregunta que no está aquí?{' '}
           <a
             href="https://github.com/Euquimides/indicenueve/issues"
             target="_blank"
