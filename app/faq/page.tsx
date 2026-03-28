@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: '¿Con qué frecuencia se actualiza el índice?',
-    a: 'No hay un calendario fijo. El proyecto es de código abierto y se actualiza mediante pull requests de la comunidad. Si encontrás información desactualizada o incorrecta, podés reportarla abriendo un issue en GitHub.',
+    a: 'No hay un calendario fijo. El proyecto es de código abierto y se actualiza mediante pull requests de la comunidad. Si encuentras información desactualizada o incorrecta, puedes reportarla abriendo un issue en GitHub.',
   },
   {
     q: '¿Qué criterios se usan para incluir artistas?',

@@ -81,6 +81,9 @@ export default function Navbar() {
             <Link href="/faq" className={isActive('/faq') ? activeClass : inactiveClass} aria-current={isActive('/faq') ? 'page' : undefined}>
               FAQ
             </Link>
+            <Link href="/premios-figueroa" className={isActive('/premios-figueroa') ? activeClass : inactiveClass} aria-current={isActive('/premios-figueroa') ? 'page' : undefined}>
+              Premios Figueroa
+            </Link>
            <Link href="/estadisticas" className={isActive('/estadisticas') ? activeClass : inactiveClass} aria-current={isActive('/estadisticas') ? 'page' : undefined}>
               Estadísticas
             </Link>
@@ -119,6 +122,9 @@ export default function Navbar() {
           </Link>
           <Link href="/faq" className={`py-3 ${isActive('/faq') ? 'text-on-surface font-semibold' : 'text-outline'}`} aria-current={isActive('/faq') ? 'page' : undefined}>
             FAQ
+          </Link>
+          <Link href="/premios-figueroa" className={`py-3 ${isActive('/premios-figueroa') ? 'text-on-surface font-semibold' : 'text-outline'}`} aria-current={isActive('/premios-figueroa') ? 'page' : undefined}>
+            Premios Figueroa
           </Link>
           <Link href="/estadisticas" className={`py-3 ${isActive('/estadisticas') ? 'text-on-surface font-semibold' : 'text-outline'}`} aria-current={isActive('/estadisticas') ? 'page' : undefined}>
             Estadísticas

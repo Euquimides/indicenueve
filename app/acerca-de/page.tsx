@@ -36,7 +36,7 @@ export default function AcercaDePage() {
             <ul className="space-y-4">
               {[
                 'Varios artistas costarricenses producen para las editoriales más grandes del mundo.',
-                'Dan Mora es uno de los dibujantes más cotizados del planeta y candidato al Eisner Award 2024.',
+                'Dan Mora es uno de los dibujantes más cotizados del planeta. Ganó el premio Russ Manning a Mejor Artista Promesa del año 2016. Asimismo, en el 2024 tuvo varias nominaciones en los premios Eisner: BEST CONTINUING SERIES, BEST PENCILIR OR INKER y BEST COVER ARTIST.',
                 'John Timms fue el primer costarricense en trabajar regularmente para DC y Marvel.',
                 'Leo Trinidad es bestseller del New York Times con trabajo para DreamWorks y Cartoon Network.',
               ].map((item) => (
@@ -81,7 +81,7 @@ export default function AcercaDePage() {
               ¿Cómo aparecer en el índice?
             </h2>
             <p className="text-sm text-on-surface-variant leading-relaxed font-body mb-6">
-              Si eres artista costarricense de cómics o conocés a alguien que debería estar en el
+              Si eres artista costarricense de cómics o conoces a alguien que debería estar en el
               directorio, puedes contribuir de la siguiente manera:
             </p>
             <ol className="space-y-4">
