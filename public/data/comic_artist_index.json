@@ -1207,6 +1207,35 @@
         }
       },
       "last_updated": "2026-03-26"
+    },
+    {
+      "id": "artist_053",
+      "name": "Rodolfo Pérez",
+      "location": "Costa Rica",
+      "bio": "Diseñador publicitario y web con la manía por el dibujo desde chico, en particular por las historietas. En 1990 publicó dos cómics originales a color de ciencia ficción (CAZADORES) y super héroes (ALIANZA), en la legendaria Revista Tambor. También escribió e ilustró una serie de historietas educativas con el personaje ICETICO y en tiempos más recientes, nos trajo LAS AVENTURAS DE POTATO CHIP.",
+      "roles": [
+        "dibujante",
+        "escritor",
+        "ilustrador"
+      ],
+      "genres": [
+        "comic",
+        "ciencia_ficcion",
+        "superheroes",
+        "humor"
+      ],
+      "experience_level": "nacional",
+      "publications": [
+        "Revista Tambor"
+      ],
+      "images": {
+        "featured": {
+          "url": "/images/rodolfo_perez.jpg",
+          "alt": "Rodolfo Pérez",
+          "format": "jpg"
+        }
+      },
+      "last_updated": "2026-03-26"
     }
   ],
   "works": []
